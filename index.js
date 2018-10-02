@@ -1,5 +1,4 @@
 
-
   const img = document.getElementById('img');
   // Load the model.
   mobilenet.load().then(model => {
