@@ -8,3 +8,7 @@
       console.log(predictions);
     });
   });
+
+
+  document.getElementById('micro_out_div').innerText +=
+      model.classify(img);
