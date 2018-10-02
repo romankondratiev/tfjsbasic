@@ -6,9 +6,9 @@
     model.classify(img).then(predictions => {
       console.log('Predictions: ');
       console.log(predictions);
+    document.getElementById('micro_out_div').innerText +=
+    model.classify(img);
     });
   });
 
 
-  document.getElementById('micro_out_div').innerText +=
-      model.classify(img);
