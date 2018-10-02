@@ -1,4 +1,4 @@
-<img id="img" src="cat.jpeg"></img>
+<img id="img" src="./cat.jpeg"></img>
 
   const img = document.getElementById('img');
   // Load the model.
