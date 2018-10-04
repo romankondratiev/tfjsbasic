@@ -7,6 +7,8 @@
       console.log('Predictions: ');
       console.log(predictions);
       console.log(JSON.stringify(predictions));
+    document.getElementById('micro_out_div').innerHTML = JSON.stringify(predictions);
+    });
     });
   });
 
