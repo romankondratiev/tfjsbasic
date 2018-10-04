@@ -10,5 +10,4 @@
     document.getElementById('micro_out_div').innerHTML = JSON.stringify(predictions);
     });
     });
-  });
 
