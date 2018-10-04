@@ -1,6 +1,5 @@
 
   const img = document.getElementById('img');
-  const img = document.getElementById('img');
   // Load the model.
   mobilenet.load().then(model => {
     // Classify the image.
