@@ -4,7 +4,7 @@
   mobilenet.load().then(model => {
     // Classify the image.
     model.classify(img).then(predictions => {
-      document.getElementById('micro_out_div').innerHTML = predictions;
+      document.write(predictions);
     });
   });
 
